@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border: solid 10px red;
+            border-radius: 50px;
+            padding: 20px;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+        button{
+            color: white;
+            background-color: green;
+            border: solid 1px greenyellow ;
+        }
+        botton:hover{
+            color: black;
+            background-color: aliceblue;
+            border: solid 1px greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Chapter 2:1.1</h1>
+        <h2>Changing elements by </h2>
+        <p id="p1"><b>Hello, I'm Para of this page and you can play with me.</b></p>
+        <button onclick="document.getElementById('p1').style.fontSize= '40px'">Make the Text Bigger</button>
+        <button onclick="document.getElementById('p1').style.fontSize= '5px'">Make the Text Smaller</button>
+        <button onclick="document.getElementById('p1').style.fontSize= '15px'">Make the Text Normal</button>
+<br> <br>
+        <button onclick="document.getElementById('p1').style.display= 'none'">Make the text invisible!</button>
+        <button onclick="document.getElementById('p1').style.display= 'block'">Make the text visible!</button>
+
+    </center>
+</body>
+</html>
