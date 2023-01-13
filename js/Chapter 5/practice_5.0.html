@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Javascript Statements</h1>    </center>
+
+        <hr>
+        <li> <b> Statement 1: Let x, y, z; </li>
+        <li>Statement 2: x = 5</li>
+        <li>Statement 3: y = 4</li>
+        <li>Statement 4: z = x + y</b></li><br>
+        <button onclick="f1()">Show Output</button>
+        <hr>
+        <h4>Output:</h4>        
+        <h4 id="p1"></h4>
+    <script>
+        function f1(){
+            let x, y, z;
+            x = 5;
+            y = 4;
+            z = x + y;
+            document.getElementById("p1").innerHTML = z;
+        }
+    </script>
+</body>
+</html>
