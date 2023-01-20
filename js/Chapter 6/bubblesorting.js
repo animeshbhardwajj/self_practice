@@ -1,3 +1,5 @@
+console.log(("Bubble Sorting:"), 36,19,29,12,5)
+
 var a = [36,19,29,12,5];
  function bubble(a){
 
@@ -10,6 +12,6 @@ var a = [36,19,29,12,5];
     }
    }
  }
- console.log(a);
 }
+console.log(a);
 bubble(a);
